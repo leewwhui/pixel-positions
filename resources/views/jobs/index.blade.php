@@ -41,6 +41,5 @@
                 @endforeach
             </div>
         </section>
-        <br/>
     </div>
 </x-layout>

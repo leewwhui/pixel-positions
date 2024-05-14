@@ -14,8 +14,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-black text-white">
-
-<div class="px-10">
+<div class="px-10 pb-20">
     <nav class="flex justify-between items-center py-4 border-b border-white/10">
         <a href="/">
             <img src="{{Vite::asset('resources/images/logo.svg')}}" alt="">
@@ -37,6 +36,5 @@
         {{$slot}}
     </main>
 </div>
-
 </body>
 </html>
